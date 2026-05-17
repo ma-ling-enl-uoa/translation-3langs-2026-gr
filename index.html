@@ -4,7 +4,6 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://ma-ling-enl-uoa.github.io/translation-3langs-2026/documents/favicon.png">
 <link rel="icon" type="image/x-icon" href="https://ma-ling-enl-uoa.github.io/translation-3langs-2026/documents/favicon.ico">
 <link rel="apple-touch-icon" sizes="256x256" href="https://ma-ling-enl-uoa.github.io/translation-3langs-2026/documents/favicon-256.png">
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Διατμηματικό ΠΜΣ στη Μετάφραση: Ελληνικά, Αγγλικά, Ρωσικά (2026-2028) — Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών. Υποβολή αιτήσεων για τον Οκτώβριο 2026.">
@@ -34,14 +33,10 @@
 html{scroll-behavior:smooth}
 body{font-family:'EB Garamond',Georgia,serif;background:var(--cream);color:var(--ink);overflow-x:hidden}
 a{color:inherit;text-decoration:none}
-
-/* WEBEX BANNER */
 .webex-banner{position:fixed;top:0;left:0;right:0;z-index:110;background:linear-gradient(90deg,var(--rust,#c63),rgba(0,0,0,.05));color:#fff;padding:9px 8%;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.5px;line-height:1.3;min-height:42px;box-sizing:border-box}
 .webex-banner strong{font-size:12px}
 .webex-banner a.webex-cta{background:#fff;color:#000;padding:6px 14px;font-weight:700;letter-spacing:1px;text-transform:uppercase;font-size:10px;white-space:nowrap}
 @media(max-width:680px){.webex-banner{font-size:10px;padding:8px 5%}.webex-banner strong{font-size:11px}}
-
-/* NAV */
 nav{position:fixed;top:42px;left:0;right:0;z-index:100;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;background:transparent;transition:all .35s;border-bottom:1px solid transparent}
 nav.scrolled{background:rgba(12,28,40,.96);border-bottom-color:rgba(184,58,46,.3);padding:10px 5%}
 .nlogo{display:flex;flex-direction:column;gap:3px}
@@ -60,8 +55,6 @@ nav.scrolled{background:rgba(12,28,40,.96);border-bottom-color:rgba(184,58,46,.3
 .mob-menu.open{display:flex}
 .mob-menu a{font-family:'Playfair Display',serif;font-size:30px;color:rgba(255,255,255,.85)}
 .mob-menu a:hover{color:var(--gold)}
-
-/* HERO */
 .hero{min-height:100vh;background:var(--dk);display:flex;flex-direction:column;align-items:stretch;position:relative;overflow:hidden}
 .hero-bg-text{position:absolute;font-family:'Playfair Display',serif;font-size:clamp(160px,22vw,300px);font-weight:900;color:rgba(255,255,255,.025);top:50%;right:-4%;transform:translateY(-50%);white-space:nowrap;line-height:1;user-select:none;pointer-events:none}
 .hero-top-badge{display:inline-flex;gap:10px;align-items:center;border:1px solid rgba(255,255,255,.15);padding:7px 16px;margin-bottom:32px;opacity:0;animation:fadeUp .7s .2s forwards}
@@ -76,8 +69,6 @@ nav.scrolled{background:rgba(12,28,40,.96);border-bottom-color:rgba(184,58,46,.3
 .btn-r:hover{background:var(--rust-l)}
 .btn-ol{border:1px solid rgba(255,255,255,.28);color:rgba(255,255,255,.65);font-family:'Space Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:14px 28px;transition:all .2s;display:inline-block}
 .btn-ol:hover{border-color:var(--gold);color:var(--gold)}
-
-/* DEPT STRIP */
 .hero-inner{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:110px 8% 60px;position:relative;z-index:2;min-height:0}
 .dept-strip{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(255,255,255,.07);opacity:0;animation:fadeIn 1s 1.3s forwards;flex-shrink:0}
 .ds{padding:24px 8%;border-right:1px solid rgba(255,255,255,.07)}
@@ -88,23 +79,17 @@ nav.scrolled{background:rgba(12,28,40,.96);border-bottom-color:rgba(184,58,46,.3
 .ds-role.s{color:rgba(100,155,200,.7)}
 .ds-name{font-family:'Playfair Display',serif;font-size:14px;font-weight:700;color:rgba(255,255,255,.75)}
 .ds-focus{font-family:'EB Garamond',serif;font-size:12px;color:rgba(255,255,255,.35);margin-top:3px;font-style:italic}
-
-/* SECTIONS */
 section{padding:90px 8%}
 .sec-label{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:4px;text-transform:uppercase;color:var(--rust);margin-bottom:12px}
 .sec-title{font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,46px);font-weight:700;color:var(--ink);line-height:1.15;margin-bottom:18px}
 .sec-title em{font-style:italic;color:var(--rust)}
 .sec-sub{font-size:18px;color:var(--muted);line-height:1.75;max-width:640px}
 .div3{width:60px;height:3px;background:linear-gradient(90deg,var(--rust),var(--gold),var(--slate));margin:18px 0 38px}
-
-/* ABOUT */
 #about{background:var(--white)}
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;margin-top:46px}
 .about-text p{font-size:17px;line-height:1.8;color:#363640;margin-bottom:18px}
 .pq{background:var(--dk);padding:30px;border-left:4px solid var(--gold);margin:22px 0}
 .pq p{font-family:'Playfair Display',serif;font-size:18px;font-style:italic;color:rgba(255,255,255,.9);margin:0;line-height:1.5}
-
-/* THREE-DEPT CARDS */
 .dept-cards{display:flex;flex-direction:column;gap:0}
 .dept-card{padding:22px 20px;border:1px solid var(--border);border-left:4px solid;margin-bottom:12px;transition:box-shadow .2s}
 .dept-card:hover{box-shadow:0 4px 18px rgba(0,0,0,.07)}
@@ -119,8 +104,6 @@ section{padding:90px 8%}
 .dc-focus{font-size:13.5px;color:var(--muted);line-height:1.6}
 .dc-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}
 .dctag{font-family:'Space Mono',monospace;font-size:7.5px;letter-spacing:.8px;text-transform:uppercase;padding:3px 8px;background:var(--cream);color:var(--muted);border:1px solid var(--border)}
-
-/* WHAT IS */
 #what{background:var(--dk)}
 #what .sec-label{color:var(--gold)}
 #what .sec-title{color:#fff}
@@ -137,8 +120,6 @@ section{padding:90px 8%}
 .wc-n{font-family:'Playfair Display',serif;font-size:56px;font-weight:900;color:rgba(200,155,0,.15);line-height:1;margin-bottom:12px}
 .wc-title{font-family:'Playfair Display',serif;font-size:19px;font-weight:700;color:#fff;margin-bottom:10px}
 .wc-body{font-size:14px;color:rgba(255,255,255,.45);line-height:1.7}
-
-/* COURSES */
 #courses{background:var(--white)}
 .course-tabs{display:flex;gap:0;border-bottom:2px solid var(--border);margin:32px 0 24px}
 .ctab{font-family:'Space Mono',monospace;font-size:8.5px;letter-spacing:2px;text-transform:uppercase;padding:12px 20px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .2s}
@@ -160,8 +141,6 @@ section{padding:90px 8%}
 .db-stat{text-align:center}
 .db-num{font-family:'Playfair Display',serif;font-size:52px;font-weight:900;color:var(--gold);line-height:1}
 .db-lab{font-family:'Space Mono',monospace;font-size:7.5px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.35);margin-top:4px}
-
-/* ADMISSION */
 #admission{background:var(--cream)}
 .adm-top-box{background:var(--white);border:1px solid var(--border);border-top:4px solid var(--rust);padding:28px;margin-bottom:36px}
 .adm-top-box h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--ink);margin-bottom:10px}
@@ -171,10 +150,7 @@ section{padding:90px 8%}
 .crit-li{display:flex;gap:14px;align-items:flex-start}
 .cpct{background:var(--rust);color:#fff;font-family:'Space Mono',monospace;font-size:11px;font-weight:700;padding:5px 8px;flex-shrink:0;min-width:44px;text-align:center}
 .ctext{font-size:15px;color:#363640;line-height:1.65;padding-top:4px}
-.doc-list{list-style:none;display:flex;flex-direction:column;gap:7px}
 .doc-note{margin-top:16px;border:1px solid var(--border);border-left:3px solid var(--gold);padding:16px;background:var(--white);font-size:13.5px;color:var(--muted);line-height:1.7}
-
-/* DATES */
 #dates{background:var(--dk)}
 #dates .sec-label{color:var(--gold)}
 #dates .sec-title{color:#fff}
@@ -185,8 +161,6 @@ section{padding:90px 8%}
 .tl-dot.on{background:var(--rust);border-color:var(--rust)}
 .tl-date{font-family:'Playfair Display',serif;font-size:14px;font-weight:700;color:var(--gold);margin-bottom:6px}
 .tl-ev{font-family:'Space Mono',monospace;font-size:7.5px;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.38);line-height:1.75}
-
-/* APPLY */
 #apply{background:var(--white)}
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:40px 0}
 .step{padding:26px 20px;border-right:1px solid var(--border);text-align:center}
@@ -201,15 +175,11 @@ section{padding:90px 8%}
 .apply-cta{background:var(--dk);padding:40px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:26px}
 .apply-cta h3{font-family:'Playfair Display',serif;font-size:24px;color:#fff;margin-bottom:8px}
 .apply-cta p{font-size:15px;color:rgba(255,255,255,.45);line-height:1.65}
-
-/* RESEARCH */
 #research{background:var(--white)}
 .research-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}
 .ri-card{border:1px solid var(--border);border-left:3px solid var(--slate);padding:24px;background:var(--cream)}
 .ri-card .ri-h{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:10px}
 .ri-card p{font-size:14.5px;line-height:1.65;color:var(--muted);margin:0}
-
-/* FOOTER */
 footer{background:var(--dk);padding:56px 8% 28px}
 .fg{display:grid;grid-template-columns:2fr 1fr 1fr;gap:44px;margin-bottom:40px}
 .fb-t{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:#fff;margin-bottom:4px}
@@ -221,14 +191,10 @@ footer{background:var(--dk);padding:56px 8% 28px}
 .fc ul li a:hover{color:var(--rust)}
 .fb-bot{border-top:1px solid rgba(255,255,255,.07);padding-top:20px;display:flex;justify-content:space-between;align-items:center}
 .fb-bot p{font-family:'Space Mono',monospace;font-size:8.5px;letter-spacing:.8px;color:rgba(255,255,255,.2)}
-
-/* ANIMATIONS */
 @keyframes fadeUp{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}
 .reveal.visible{opacity:1;transform:none}
-
-/* RESPONSIVE */
 @media(max-width:900px){
   .about-grid,.adm-grid,.fg{grid-template-columns:1fr}
   .what-grid,.research-grid{grid-template-columns:1fr 1fr}
@@ -271,7 +237,6 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <div class="hamburger" onclick="toggleMob()"><span></span><span></span><span></span></div>
 </nav>
 
-<!-- WEBEX INFO BANNER -->
 <div class="webex-banner">
 <span><strong>ΕΝΗΜΕΡΩΤΙΚΟ WEBINAR</strong> &nbsp;&middot;&nbsp; Τετάρτη 10 Ιουνίου 2026, 11:30 έως 12:30, ώρα Αθηνών (EEST, UTC+3)</span>
 <a href="https://uoa.webex.com/uoa/j.php?MTID=m51ea6674e82a5d907fb4bd185b9205bc" target="_blank" rel="noopener" class="webex-cta">Συμμετοχή μέσω Webex &rarr;</a>
@@ -303,9 +268,9 @@ footer{background:var(--dk);padding:56px 8% 28px}
   </div>
   <div class="dept-strip">
   <div class="ds">
-  <div class="ds-role r">Θεωρία Μετάφρασης · Γλωσσολογία Σωμάτων Κειμένων · Ψηφιακή Μετάφραση</div>
+  <div class="ds-role r">Θεωρία Μετάφρασης · Γλωσσολογία Σωμάτων Κειμένων · Γλωσσική Επαφή</div>
   <div class="ds-name">Τμήμα Αγγλικής Γλώσσας και Φιλολογίας</div>
-  <div class="ds-focus">Μεταφραστικές σπουδές, ψυχογλωσσολογία, μηχανική μετάφραση, οπτικοακουστική μετάφραση</div>
+  <div class="ds-focus">Μεταφραστικές σπουδές, ψυχογλωσσολογία, μηχανική μετάφραση, γλωσσική επαφή και αλλαγή</div>
   </div>
   <div class="ds">
   <div class="ds-role g">Λόγος · Κοινωνιογλωσσολογία · Σημειωτική · Γλωσσική Επαφή</div>
@@ -320,14 +285,14 @@ footer{background:var(--dk);padding:56px 8% 28px}
   </div>
 </section>
 
-<!-- CIVIS HIGHLIGHT BOX -->
+<!-- CIVIS -->
 <section id="civis" style="background:linear-gradient(135deg,#fff7e0,#ffeec9);padding:60px 8%">
   <div style="max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:36px;flex-wrap:wrap">
     <img src="https://ma-ling-enl-uoa.github.io/translation-3langs-2026/documents/civis-logo.png" alt="Λογότυπο CIVIS European Civic University Alliance" style="width:170px;height:auto;flex-shrink:0;object-fit:contain">
     <div style="flex:1;min-width:280px">
       <div style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#0a4961;margin-bottom:8px">Συμμαχία Ευρωπαϊκών Πανεπιστημίων</div>
       <h3 style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:#0a1f3c;margin-bottom:12px">Τμήμα του κοινού ΠΜΣ του δικτύου CIVIS</h3>
-      <p style="font-size:16px;line-height:1.7;color:#333;margin:0">Το πρόγραμμα εντάσσεται στο κοινό ΠΜΣ του δικτύου CIVIS. Μπορείτε να περάσετε ένα εξάμηνο σε συνεργαζόμενο ίδρυμα της Συμμαχίας και να αναγνωριστούν τα μαθήματα αυτά στο πλαίσιο του ΠΜΣ σας.</p>
+      <p style="font-size:16px;line-height:1.7;color:#333;margin:0">Το πρόγραμμα εντάσσεται στο κοινό ΠΜΣ του δικτύου CIVIS. Μπορείτε να περάσετε ένα εξάμηνο σε συνεργαζόμενο ίδρυμα της Συμμαχίας και τα μαθήματα αυτά να αναγνωριστούν στο πλαίσιο του ΠΜΣ σας.</p>
     </div>
   </div>
 </section>
@@ -339,12 +304,12 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <div class="div3"></div>
   <div class="about-grid reveal">
   <div class="about-text">
-  <p>Το παρόν Διατμηματικό ΠΜΣ στηρίζεται σε μία και μόνη επιστημονική αρχή: η μετάφραση είναι μία από τις πλέον σύνθετες και σημαντικές ανθρώπινες δραστηριότητες, και ως τέτοια αξίζει ένα αυτοτελές, αυστηρό, ερευνητικά προσανατολισμένο πρόγραμμα σπουδών.</p>
-  <p>Το πρόγραμμα ενώνει τρία γλωσσικά τμήματα του ΕΚΠΑ: Αγγλικής Γλώσσας και Φιλολογίας, Φιλολογίας και Ρωσικής Γλώσσας και Σλαβικών Σπουδών. Κάθε τμήμα φέρνει τη δική του ερευνητική οπτική στη μελέτη της μετάφρασης.</p>
+  <p>Το παρόν Διατμηματικό ΠΜΣ θεμελιώνεται σε μία και μόνη επιστημονική αρχή: η μετάφραση είναι μία από τις πλέον σύνθετες και σημαντικές ανθρώπινες δραστηριότητες, και ως τέτοια αξίζει ένα αυτοτελές, επιστημονικά θεμελιωμένο πρόγραμμα σπουδών.</p>
+  <p>Το πρόγραμμα συγκεντρώνει τρία γλωσσικά τμήματα του ΕΚΠΑ: Αγγλικής Γλώσσας και Φιλολογίας, Φιλολογίας και Ρωσικής Γλώσσας και Σλαβικών Σπουδών. Κάθε τμήμα εισφέρει τη δική του ερευνητική οπτική στη μελέτη της μετάφρασης.</p>
   <div class="pq">
-  <p>«Η μετάφραση δεν είναι γλωσσολογικό ατύχημα: είναι κλάδος, μέθοδος, θεωρία και πράξη. Το παρόν πρόγραμμα την αντιμετωπίζει και ως τα τέσσερα.»</p>
+  <p>«Η μετάφραση δεν είναι τυχαίο γλωσσικό φαινόμενο. Είναι κλάδος, μέθοδος, θεωρία και πράξη. Το παρόν πρόγραμμα τη μελετά ολιστικά.»</p>
   </div>
-  <p>Οι φοιτητές αποκτούν ένα ολοκληρωμένο εννοιολογικό και αναλυτικό οπλοστάσιο: θεωρία μετάφρασης και μεθοδολογία έρευνας, ψυχογλωσσολογικές και γνωστικές προσεγγίσεις, ανάλυση λόγου, γλωσσολογία σωμάτων κειμένων, μηχανική μετάφραση, λογοτεχνική μετάφραση, διαπολιτισμικές σπουδές. Οι γλωσσικοί συνδυασμοί αποτελούν το <em>εργαστήριο</em>· η καθολική μεθοδολογία αποτελεί το <em>αντικείμενο σπουδών</em>.</p>
+  <p>Οι φοιτήτριες και φοιτητές αποκτούν ένα ολοκληρωμένο εννοιολογικό και αναλυτικό οπλοστάσιο: θεωρία μετάφρασης και μεθοδολογία έρευνας, ψυχογλωσσολογικές και γνωστικές προσεγγίσεις, ανάλυση λόγου, γλωσσολογία σωμάτων κειμένων, μηχανική μετάφραση, λογοτεχνική μετάφραση, γλωσσική επαφή, γλωσσική αλλαγή και διαπολιτισμικές σπουδές. Οι γλωσσικοί συνδυασμοί αποτελούν το <em>εργαστήριο</em>· η καθολική μεθοδολογία αποτελεί το <em>αντικείμενο σπουδών</em>.</p>
   <p>Ο κύκλος 2026–2028 περιλαμβάνει νέο Σεμινάριο Μετάφρασης και Νέων Τεχνολογιών, παράλληλα με τις καθιερωμένες αναλυτικές, ιστορικές και συγκριτικές κατευθύνσεις του προγράμματος.</p>
   </div>
   <div>
@@ -352,41 +317,38 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <div class="dept-card r">
   <div class="dc-role r">Επισπεύδον Τμήμα</div>
   <div class="dc-name">Αγγλικής Γλώσσας και Φιλολογίας</div>
-  <div class="dc-focus">Φορέας της θεωρίας μετάφρασης, της ψυχογλωσσολογίας, των μεθόδων σωμάτων κειμένων, της μηχανικής μετάφρασης και της οπτικοακουστικής μετάφρασης. Παρέχει το θεωρητικό και μεθοδολογικό θεμέλιο του προγράμματος.</div>
-  <div class="dc-tags"><span class="dctag">Θεωρία Μετάφρασης</span><span class="dctag">Ψυχογλωσσολογία</span><span class="dctag">Γλωσσολογία Σωμάτων Κειμένων</span><span class="dctag">Μηχανική Μετάφραση</span></div>
+  <div class="dc-focus">Στο Τμήμα καλλιεργούνται η θεωρία μετάφρασης, η ψυχογλωσσολογία, οι μέθοδοι σωμάτων κειμένων, η μηχανική μετάφραση, η οπτικοακουστική μετάφραση, η γλωσσική επαφή και η γλωσσική αλλαγή. Το Τμήμα παρέχει το θεωρητικό και μεθοδολογικό θεμέλιο του προγράμματος.</div>
+  <div class="dc-tags"><span class="dctag">Θεωρία Μετάφρασης</span><span class="dctag">Ψυχογλωσσολογία</span><span class="dctag">Γλωσσολογία Σωμάτων Κειμένων</span><span class="dctag">Μηχανική Μετάφραση</span><span class="dctag">Γλωσσική Επαφή</span><span class="dctag">Γλωσσική Αλλαγή</span></div>
   </div>
   <div class="dept-card g">
   <div class="dc-role g">Συνεργαζόμενο Τμήμα</div>
   <div class="dc-name">Τμήμα Φιλολογίας</div>
-  <div class="dc-focus">Προσφέρει ανάλυση λόγου, κοινωνιογλωσσολογία, σημειωτική, γλωσσική επαφή και μελέτη του προφορικού λόγου: τις κειμενικές και κοινωνικές διαστάσεις της μετάφρασης.</div>
+  <div class="dc-focus">Στο Τμήμα καλλιεργούνται η ανάλυση λόγου, η κοινωνιογλωσσολογία, η σημειωτική, η γλωσσική επαφή και η μελέτη του προφορικού λόγου: οι κειμενικές και κοινωνικές διαστάσεις της μετάφρασης.</div>
   <div class="dc-tags"><span class="dctag">Ανάλυση Λόγου</span><span class="dctag">Σημειωτική</span><span class="dctag">Κοινωνιογλωσσολογία</span><span class="dctag">Γλωσσική Επαφή</span></div>
   </div>
   <div class="dept-card s">
   <div class="dc-role s">Συνεργαζόμενο Τμήμα</div>
   <div class="dc-name">Τμήμα Ρωσικής Γλώσσας και Σλαβικών Σπουδών</div>
-  <div class="dc-focus">Εισφέρει συγκριτική γλωσσολογία, λογοτεχνική μετάφραση, βυζαντινή και σλαβική πρόσληψη και πολιτισμική μεταφορά: την ιστορική και συγκριτική διάσταση του προγράμματος.</div>
+  <div class="dc-focus">Στο Τμήμα καλλιεργούνται η συγκριτική γλωσσολογία, η λογοτεχνική μετάφραση, η βυζαντινή και σλαβική πρόσληψη και η πολιτισμική μεταφορά: η ιστορική και συγκριτική διάσταση του προγράμματος.</div>
   <div class="dc-tags"><span class="dctag">Λογοτεχνική Μετάφραση</span><span class="dctag">Αντιπαραθετική Γλωσσολογία</span><span class="dctag">Βυζαντινή Πρόσληψη</span><span class="dctag">Πολιτισμική Μεταφορά</span></div>
   </div>
   </div>
   </div>
   </div>
 
-<!-- FLEXIBLE DELIVERY CARD -->
 <div style="margin:30px 0;padding:24px 28px;background:#fff;border-left:4px solid var(--rust,#c63);box-shadow:0 2px 12px rgba(0,0,0,.04)">
   <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--rust,#c63);margin-bottom:6px">Ευέλικτος Τρόπος Παράδοσης</div>
-  <p style="font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e);margin:0">Επιλεγμένα μαθήματα, σεμινάρια, διαλέξεις και εργαστήρια παρέχονται σε <strong>υβριδική ή εξ ολοκλήρου εξ αποστάσεως</strong> μορφή. Η εξέταση της διπλωματικής εργασίας μπορεί επίσης να πραγματοποιηθεί εξ αποστάσεως.</p>
+  <p style="font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e);margin:0">Επιλεγμένα μαθήματα, σεμινάρια, διαλέξεις και εργαστήρια παρέχονται σε <strong>υβριδική ή εξ ολοκλήρου εξ αποστάσεως</strong> μορφή. Η υποστήριξη και υποβολή της διπλωματικής εργασίας μπορεί επίσης να πραγματοποιηθεί εξ αποστάσεως.</p>
 </div>
 
-<!-- ROOTED IN LINGUISTICS CARD -->
 <div style="margin:30px 0;padding:24px 28px;background:#fff;border-left:4px solid var(--rust,#c63);box-shadow:0 2px 12px rgba(0,0,0,.04)">
   <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--rust,#c63);margin-bottom:6px">Θεμελιωμένο στη Γλωσσολογία</div>
-  <p style="font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e);margin:0">Η μετάφραση μεταξύ Ελληνικών, Αγγλικών και Ρωσικών εξετάζεται από <strong>γλωσσολογική σκοπιά</strong>. Το θεωρητικό, μεθοδολογικό και αναλυτικό έργο αντλεί από τη γλωσσολογία κειμένου, τη συγκριτική γλωσσολογία και τη γλωσσολογία επαφής, τις μεθόδους σωμάτων κειμένων και την ανάλυση λόγου και στις τρεις γλώσσες εργασίας. Οι απόφοιτοι αποχωρούν με επιστημονικά θεμελιωμένη κατανόηση του τρόπου λειτουργίας της γλώσσας, και όχι μόνο του τρόπου μεταφοράς της ανάμεσα σε γλώσσες.</p>
+  <p style="font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e);margin:0">Η μετάφραση μεταξύ Ελληνικών, Αγγλικών και Ρωσικών εξετάζεται από <strong>γλωσσολογική σκοπιά</strong>. Το θεωρητικό, μεθοδολογικό και αναλυτικό έργο αντλεί από τη γλωσσολογία κειμένου, τη συγκριτική γλωσσολογία, τη γλωσσολογία επαφής και τη γλωσσική αλλαγή, τις μεθόδους σωμάτων κειμένων και την ανάλυση λόγου σε όλες τις γλώσσες εργασίας. Οι απόφοιτες και απόφοιτοι αποκτούν επιστημονικά θεμελιωμένη κατανόηση του τρόπου λειτουργίας της γλώσσας, πέρα από τη μεταφορά της ανάμεσα σε γλώσσες.</p>
 </div>
 
-<!-- INVITED LECTURES SERIES -->
 <div style="margin:30px 0;padding:24px 28px;background:#fff;border-left:4px solid var(--rust,#c63);box-shadow:0 2px 12px rgba(0,0,0,.04)">
   <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--rust,#c63);margin-bottom:6px">Σειρά Προσκεκλημένων Διαλέξεων</div>
-  <p style="font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e);margin:0">Περίπου <strong>δύο σεμινάρια ανά μήνα</strong> παρέχονται από προσκεκλημένους καθηγητές και ανώτερους ερευνητές κορυφαίων διεθνών ιδρυμάτων. Οι ομιλητές συνεισφέρουν διαλέξεις, masterclasses και ανοιχτές συζητήσεις σε όλο το φάσμα γλωσσολογίας-μετάφρασης, με παρουσία και στις τρεις γλώσσες εργασίας. Ανοικτό σε όλους τους φοιτητές του ΠΜΣ· η παρακολούθηση εντάσσεται στο ακαδημαϊκό ημερολόγιο.</p>
+  <p style="font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e);margin:0">Περίπου <strong>δύο σεμινάρια ανά μήνα</strong> παρέχονται από προσκεκλημένα μέλη ΔΕΠ και ανώτερα ερευνητικά στελέχη κορυφαίων διεθνών ιδρυμάτων. Οι ομιλητές και ομιλήτριες συνεισφέρουν διαλέξεις, masterclasses και ανοιχτές συζητήσεις σε όλο το φάσμα γλωσσολογίας-μετάφρασης, με παρουσία και στις τρεις γλώσσες εργασίας. Ανοικτό σε όλες τις φοιτήτριες και τους φοιτητές του ΠΜΣ· η παρακολούθηση εντάσσεται στο ακαδημαϊκό ημερολόγιο.</p>
 </div>
 
 </section>
@@ -396,11 +358,11 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <div class="sec-label reveal">Γιατί αυτό το ΠΜΣ</div>
   <h2 class="sec-title reveal" style="color:#fff">Έξι λόγοι που κάνουν<br>αυτό το πρόγραμμα μοναδικό.</h2>
   <div class="what-grid">
-  <div class="what-card reveal"><div class="wc-n">01</div><div class="wc-title">Ερευνητικά Προσανατολισμένο Πρόγραμμα Σπουδών</div><div class="wc-body">Μελετάτε τη μετάφραση μέσα από θεωρητικές, κειμενικές και ιστορικές-συγκριτικές μεθόδους και αποφοιτάτε με συνεκτική, μεθοδολογικά θεμελιωμένη κατανόηση του κλάδου ως αυτοτελούς ερευνητικής επιστήμης.</div></div>
+  <div class="what-card reveal"><div class="wc-n">01</div><div class="wc-title">Ερευνητικά Προσανατολισμένο Πρόγραμμα Σπουδών</div><div class="wc-body">Μελετάτε τη μετάφραση μέσα από θεωρητικές, κειμενικές, ιστορικές και συγκριτικές μεθόδους και αποφοιτάτε με συνεκτική, μεθοδολογικά θεμελιωμένη κατανόηση του κλάδου ως αυτοτελούς ερευνητικής επιστήμης.</div></div>
   <div class="what-card reveal"><div class="wc-n">02</div><div class="wc-title">Μετάφραση ως Επιστήμη</div><div class="wc-body">Δεν πρόκειται για γλωσσικό μάθημα. Είναι μεταπτυχιακό πρόγραμμα στην επιστήμη και στην τέχνη της μετάφρασης: θεωρία, μεθοδολογία, γνωστικές διεργασίες, πολιτισμικές διαστάσεις και ψηφιακές προοπτικές.</div></div>
-  <div class="what-card reveal"><div class="wc-n">03</div><div class="wc-title">Η Νέα Μεταφραστική Στροφή</div><div class="wc-body">Η μηχανική μετάφραση, τα εργαλεία τεχνητής νοημοσύνης, οι πλατφόρμες CAT και το post-editing [μετα-επεξεργασία] εντάσσονται στον πυρήνα του προγράμματος σπουδών, όχι στα επιλεγόμενα. Το νέο Σεμινάριο Μετάφρασης και Νέων Τεχνολογιών εξασφαλίζει ότι αποφοιτάτε έτοιμοι για την αγορά εργασίας του 2026 και εξής.</div></div>
+  <div class="what-card reveal"><div class="wc-n">03</div><div class="wc-title">Η Νέα Μεταφραστική Στροφή</div><div class="wc-body">Η μηχανική μετάφραση, τα εργαλεία τεχνητής νοημοσύνης, οι πλατφόρμες CAT και το post-editing [μετα-επεξεργασία] εντάσσονται στον πυρήνα του προγράμματος, όχι στα επιλεγόμενα. Το νέο Σεμινάριο Μετάφρασης και Νέων Τεχνολογιών εξασφαλίζει ότι αποφοιτάτε έτοιμες και έτοιμοι για την αγορά εργασίας του 2026 και εξής.</div></div>
   <div class="what-card reveal"><div class="wc-n">04</div><div class="wc-title">Χωρίς Γραπτές Εισαγωγικές Εξετάσεις</div><div class="wc-body">Αξιολογούμε τον φάκελο υποψηφιότητάς σας (50%) και τον τρόπο σκέψης σας στην προφορική συνέντευξη (50%). Η μετάφραση προϋποθέτει κρίση και διανοητικό βάθος: επιλέγουμε ακριβώς γι' αυτά.</div></div>
-  <div class="what-card reveal"><div class="wc-n">05</div><div class="wc-title">Ευέλικτο Πρόγραμμα Σπουδών</div><div class="wc-body">Κάθε εξάμηνο προσφέρει τέσσερα μαθήματα· επιλέγετε τρία. Ο κατάλογος μαθημάτων καλύπτει και τα τρία τμήματα. Διαμορφώνετε τη δική σας πορεία μέσα στο γνωστικό πεδίο, με την καθοδήγηση του επιστημονικού σας υπευθύνου.</div></div>
+  <div class="what-card reveal"><div class="wc-n">05</div><div class="wc-title">Ευέλικτο Πρόγραμμα Σπουδών</div><div class="wc-body">Κάθε εξάμηνο προσφέρει τέσσερα μαθήματα· επιλέγετε τρία. Ο κατάλογος μαθημάτων καλύπτει και τα τρία τμήματα. Διαμορφώνετε τη δική σας πορεία μέσα στο γνωστικό πεδίο, με την καθοδήγηση της επιβλέπουσας ή του επιβλέποντος.</div></div>
   <div class="what-card reveal"><div class="wc-n">06</div><div class="wc-title">Η Αθήνα ως Εργαστήριο Μετάφρασης</div><div class="wc-body">Η Αθήνα είναι η μόνη πόλη στον κόσμο όπου η αρχαία ελληνική, η βυζαντινή ελληνική και η νέα ελληνική γλώσσα συνυπάρχουν με ενεργή πολύγλωσση ακαδημαϊκή ζωή. Η πόλη αποτελεί αναπόσπαστο μέρος του προγράμματος.</div></div>
   </div>
 </section>
@@ -409,7 +371,7 @@ footer{background:var(--dk);padding:56px 8% 28px}
 <section id="courses">
   <div class="sec-label reveal">Πρόγραμμα Σπουδών</div>
   <h2 class="sec-title reveal">Τα Μαθήματα</h2>
-  <p class="sec-sub reveal">Κάθε εξάμηνο προσφέρει τουλάχιστον 4 μαθήματα και στα τρία τμήματα· οι φοιτητές επιλέγουν 3 (10 ECTS έκαστο). Η επιλογή γίνεται βάσει ερευνητικού ενδιαφέροντος, ανεξαρτήτως τμήματος. Η διπλωματική εργασία μπορεί να συγγραφεί σε οποιαδήποτε από τις τρεις γλώσσες εργασίας.</p>
+  <p class="sec-sub reveal">Κάθε εξάμηνο προσφέρει τουλάχιστον 4 μαθήματα και στα τρία τμήματα· οι φοιτήτριες και φοιτητές επιλέγουν 3 (10 ECTS έκαστο). Η επιλογή γίνεται βάσει ερευνητικού ενδιαφέροντος, ανεξαρτήτως τμήματος. Η διπλωματική εργασία συγγράφεται σε οποιαδήποτε από τις τρεις γλώσσες εργασίας.</p>
   <div class="div3"></div>
   <div class="course-tabs reveal">
   <div class="ctab active g" onclick="ct(0)">1ο Εξάμηνο</div>
@@ -417,9 +379,9 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <div class="ctab all" onclick="ct(2)">3ο Εξάμηνο / Διπλωματική Εργασία</div>
   </div>
   <div class="cpanel active" id="cp0">
-  <div class="ccard g"><div class="cc-title">Μεθοδολογία Έρευνας στις Μεταφραστικές Σπουδές</div><div class="cc-dept">Χειμερινό &middot; 10 ECTS &middot; Μαρία Σιδηροπούλου</div><div class="cc-desc">Εργαλεία και πλαίσια για το σχεδιασμό και τη διεξαγωγή έρευνας στις μεταφραστικές σπουδές. Ερευνητικά ερωτήματα, μεθοδολογικές προσεγγίσεις, συλλογή και ανάλυση δεδομένων, ακαδημαϊκή γραφή.</div></div>
-  <div class="ccard g"><div class="cc-title">Σεμινάριο Μετάφρασης</div><div class="cc-dept">Χειμερινό &middot; 10 ECTS &middot; Σταυρούλα Κεφάλα</div><div class="cc-desc">Πρακτικό εργαστήριο σύγχρονης μετάφρασης σε διάφορα είδη κειμένου. Οι φοιτητές αναλαμβάνουν αυθεντικές μεταφραστικές εργασίες και εξετάζουν κριτικά τις επιλογές του μεταφραστή.</div></div>
-  <div class="ccard g"><div class="cc-title">Γλωσσική Επαφή</div><div class="cc-dept">Χειμερινό &middot; 10 ECTS &middot; Θανάσης Γιαννάρης</div><div class="cc-desc">Θεωρία και μέθοδοι γλωσσικής επαφής εφαρμοσμένες στη μετάφραση. Δανεισμός, παρεμβολή, εναλλαγή κωδίκων, μεταβολή υπό επαφή και ο ρόλος της γλωσσικής επαφής στη μετάφραση μεταξύ Ελληνικών, Αγγλικών και Ρωσικών.</div></div>
+  <div class="ccard g"><div class="cc-title">Μεθοδολογία Έρευνας στις Μεταφραστικές Σπουδές</div><div class="cc-dept">Χειμερινό &middot; 10 ECTS &middot; Μαρία Σιδηροπούλου</div><div class="cc-desc">Εργαλεία και πλαίσια για το σχεδιασμό και τη διεξαγωγή έρευνας στις μεταφραστικές σπουδές. Ερευνητικά ερωτήματα, μεθοδολογικές προσεγγίσεις, συλλογή και ανάλυση δεδομένων, ακαδημαϊκή συγγραφή.</div></div>
+  <div class="ccard g"><div class="cc-title">Σεμινάριο Μετάφρασης</div><div class="cc-dept">Χειμερινό &middot; 10 ECTS &middot; Σταυρούλα Κεφάλα</div><div class="cc-desc">Πρακτικό εργαστήριο σύγχρονης μετάφρασης σε διάφορα είδη κειμένου. Οι φοιτήτριες και φοιτητές αναλαμβάνουν αυθεντικές μεταφραστικές εργασίες και εξετάζουν κριτικά τις επιλογές της μεταφράστριας ή του μεταφραστή.</div></div>
+  <div class="ccard g"><div class="cc-title">Γλωσσική Επαφή</div><div class="cc-dept">Χειμερινό &middot; 10 ECTS &middot; Θανάσης Γιαννάρης</div><div class="cc-desc">Θεωρία και μέθοδοι γλωσσικής επαφής εφαρμοσμένες στη μετάφραση. Δανεισμός, παρεμβολή, εναλλαγή κωδίκων, γλωσσική αλλαγή υπό επαφή και ο ρόλος της γλωσσικής επαφής στη μετάφραση μεταξύ Ελληνικών, Αγγλικών και Ρωσικών.</div></div>
   <div class="ccard g"><div class="cc-title">Συγκριτικές Γλωσσολογικές Προσεγγίσεις στη Μετάφραση: Ρωσικά, Ελληνικά, Αγγλικά</div><div class="cc-dept">Χειμερινό &middot; 10 ECTS &middot; Τατιάνα Μπορίσοβα</div><div class="cc-desc">Αντιπαραθετική ανάλυση των τριών γλωσσών εργασίας: τυπολογία, σύνταξη, λεξιλόγιο. Στρατηγικές μετάφρασης μεταξύ Ρωσικών, Ελληνικών και Αγγλικών.</div></div>
   </div>
   <div class="cpanel" id="cp1">
@@ -433,7 +395,7 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <div class="diss-block">
   <div class="db-text">
   <h3>Διπλωματική Εργασία</h3>
-  <p>Πρωτότυπη, ατομική ερευνητική εργασία (15.000 έως 20.000 λέξεις). Η διπλωματική εργασία μπορεί να συγγραφεί στα Ελληνικά, τα Αγγλικά ή τα Ρωσικά, αντικατοπτρίζοντας τον γνήσια πολύγλωσσο χαρακτήρα του προγράμματος. Ο φοιτητής προτείνει τίτλο και επιβλέποντα· η Επιτροπή Σπουδών ορίζει τριμελή εξεταστική επιτροπή. Οι εγκεκριμένες διπλωματικές εργασίες καταχωρίζονται στο ψηφιακό αποθετήριο ΠΕΡΓΑΜΟΣ του ΕΚΠΑ.</p>
+  <p>Πρωτότυπη, ατομική ερευνητική εργασία (15.000 έως 20.000 λέξεις). Η διπλωματική εργασία μπορεί να συγγραφεί στα Ελληνικά, τα Αγγλικά ή τα Ρωσικά, αντικατοπτρίζοντας τον γνήσια πολύγλωσσο χαρακτήρα του προγράμματος. Η φοιτήτρια ή ο φοιτητής προτείνει τίτλο και επιβλέπουσα ή επιβλέποντα· η Επιτροπή Σπουδών ορίζει τριμελή εξεταστική επιτροπή. Οι εγκεκριμένες διπλωματικές εργασίες καταχωρίζονται στο ψηφιακό αποθετήριο ΠΕΡΓΑΜΟΣ του ΕΚΠΑ.</p>
   </div>
   <div class="db-stat"><div class="db-num">30</div><div class="db-lab">ECTS</div></div>
   </div>
@@ -457,13 +419,13 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <li class="crit-li"><div class="cpct">50%</div><div class="ctext"><strong>Αξιολόγηση φακέλου υποψηφιότητας:</strong> πτυχίο (ελάχιστος βαθμός «Λίαν Καλώς»), συναφείς βαθμολογίες προπτυχιακών μαθημάτων, βιογραφικό σημείωμα και αναλυτική βαθμολογία, πιστοποιητικά γλωσσομάθειας (Γ1 σε Ελληνικά, Αγγλικά και Ρωσικά για μη φυσικούς ομιλητές), μία συστατική επιστολή, και τυχόν προαιρετικά συνοδευτικά υλικά: γραπτά δείγματα, δημοσιεύσεις, ερευνητική ή επαγγελματική εμπειρία, εξοικείωση με νέες τεχνολογίες. Δημοσιεύσεις και ερευνητικές εργασίες <strong>δεν αποτελούν προϋπόθεση</strong> επιλεξιμότητας.</div></li>
   <li class="crit-li"><div class="cpct">50%</div><div class="ctext"><strong>Προφορική συνέντευξη:</strong> ακαδημαϊκό υπόβαθρο, ερευνητικά ενδιαφέροντα, κριτική οπτική σε θέματα μετάφρασης και πολυγλωσσική επάρκεια στις τρεις γλώσσες εργασίας.</div></li>
   </ul>
-  <h3 style="font-family:'Playfair Display',serif;font-size:19px;font-weight:700;color:var(--ink);margin:26px 0 12px">Δικαιούμενοι Υποψήφιοι</h3>
-  <ul class="doc-list" style="list-style:none;display:flex;flex-direction:column;gap:7px">
-  <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Πτυχιούχοι Τμημάτων Φιλολογίας, Αγγλικής Γλώσσας και Φιλολογίας ή Ρωσικής Γλώσσας και Σλαβικών Σπουδών</li>
-  <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Πτυχιούχοι συναφών τμημάτων Ανθρωπιστικών Επιστημών: Γλωσσολογίας, Μεταφραστικών Σπουδών, Νέων Γλωσσών και Φιλολογιών, Κλασικών Σπουδών, Συγκριτικής Λογοτεχνίας και συγγενών κλάδων</li>
-  <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Πτυχιούχοι άλλων προγραμμάτων Ανθρωπιστικών Επιστημών με συναφές γλωσσικό υπόβαθρο, σύμφωνα με το ΦΕΚ ίδρυσης του προγράμματος</li>
+  <h3 style="font-family:'Playfair Display',serif;font-size:19px;font-weight:700;color:var(--ink);margin:26px 0 12px">Δικαιούμενες και Δικαιούμενοι Υποψήφιοι</h3>
+  <ul style="list-style:none;display:flex;flex-direction:column;gap:7px">
+  <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Πτυχιούχες και πτυχιούχοι Τμημάτων Φιλολογίας, Αγγλικής Γλώσσας και Φιλολογίας ή Ρωσικής Γλώσσας και Σλαβικών Σπουδών</li>
+  <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Πτυχιούχες και πτυχιούχοι συναφών τμημάτων Ανθρωπιστικών Επιστημών: Γλωσσολογίας, Μεταφραστικών Σπουδών, Νέων Γλωσσών και Φιλολογιών, Κλασικών Σπουδών, Συγκριτικής Λογοτεχνίας και συγγενών κλάδων</li>
+  <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Πτυχιούχες και πτυχιούχοι άλλων προγραμμάτων Ανθρωπιστικών Επιστημών με συναφές γλωσσικό υπόβαθρο, σύμφωνα με το ΦΕΚ ίδρυσης του προγράμματος</li>
   <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Κάτοχοι ισότιμων τίτλων από αναγνωρισμένα ξένα πανεπιστήμια (ΔΟΑΤΑΠ) σε συναφείς κλάδους</li>
-  <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Φοιτητές που ολοκληρώνουν το 8ο εξάμηνο (απαιτείται βεβαίωση περάτωσης πριν από την έναρξη)</li>
+  <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Φοιτήτριες και φοιτητές που ολοκληρώνουν το 8ο εξάμηνο (απαιτείται βεβαίωση περάτωσης πριν από την έναρξη)</li>
   </ul>
   <div style="margin-top:16px;padding:14px;background:var(--white);border:1px solid var(--border);border-left:3px solid var(--slate);font-size:13.5px;color:var(--muted);line-height:1.7">
   <strong>Γλωσσική απαίτηση:</strong> Πιστοποιητικά γλωσσομάθειας επιπέδου Γ1 στις τρεις γλώσσες εργασίας (Ελληνικά, Αγγλικά, Ρωσικά)· οι φυσικοί ομιλητές απαλλάσσονται για τη μητρική τους γλώσσα.
@@ -471,7 +433,7 @@ footer{background:var(--dk);padding:56px 8% 28px}
   </div>
   <div>
   <h3 style="font-family:'Playfair Display',serif;font-size:19px;font-weight:700;color:var(--ink);margin-bottom:14px">Απαιτούμενα Δικαιολογητικά</h3>
-  <ul class="doc-list" style="list-style:none;display:flex;flex-direction:column;gap:7px">
+  <ul style="list-style:none;display:flex;flex-direction:column;gap:7px">
   <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span><a href="https://docs.google.com/forms/d/e/1FAIpQLScroL8Zc9EQoH1NVibEhPeqHsZOd9YlP5nNi_QbMAPx6NCIbg/viewform" target="_blank" rel="noopener" style="color:var(--rust);font-weight:600">Ηλεκτρονική φόρμα αίτησης &rarr; ανοίξτε τη φόρμα</a></li>
   <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Πλήρες βιογραφικό σημείωμα</li>
   <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Αστυνομική ταυτότητα ή διαβατήριο (σκαναρισμένο)</li>
@@ -482,7 +444,7 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Αποδεικτικά επαγγελματικής ή ερευνητικής εμπειρίας (εφόσον υπάρχουν)</li>
   <li style="display:flex;gap:10px;align-items:flex-start;padding:9px 11px;background:var(--white);border-left:2px solid rgba(184,58,46,.3);font-size:14px;color:var(--muted);line-height:1.5"><span style="color:var(--rust);flex-shrink:0;font-family:'Space Mono',monospace;font-size:11px;margin-top:1px">→</span>Μία (1) συστατική επιστολή</li>
   </ul>
-  <div class="doc-note"><strong>Όλα τα δικαιολογητικά σε ένα ενιαίο PDF,</strong> μεταφορτωμένα μέσω της <a href="https://docs.google.com/forms/d/e/1FAIpQLScroL8Zc9EQoH1NVibEhPeqHsZOd9YlP5nNi_QbMAPx6NCIbg/viewform" target="_blank" rel="noopener" style="color:var(--rust)">ηλεκτρονικής φόρμας αίτησης</a>. Για τη συστατική επιστολή, διαβιβάζετε τη <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqSfiNjn4G6YVpnV_OqGzwa_Jgr0rb6yrKAo73skrNlYIICw/viewform" target="_blank" rel="noopener" style="color:var(--rust)">σχετική φόρμα</a> στον συστήνοντα, ο οποίος τη συμπληρώνει και αναρτά απευθείας την υπογεγραμμένη επιστολή (PDF).</div>
+  <div class="doc-note"><strong>Όλα τα δικαιολογητικά σε ένα ενιαίο PDF,</strong> μεταφορτωμένα μέσω της <a href="https://docs.google.com/forms/d/e/1FAIpQLScroL8Zc9EQoH1NVibEhPeqHsZOd9YlP5nNi_QbMAPx6NCIbg/viewform" target="_blank" rel="noopener" style="color:var(--rust)">ηλεκτρονικής φόρμας αίτησης</a>. Για τη συστατική επιστολή, διαβιβάζετε τη <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqSfiNjn4G6YVpnV_OqGzwa_Jgr0rb6yrKAo73skrNlYIICw/viewform" target="_blank" rel="noopener" style="color:var(--rust)">σχετική φόρμα</a> στην επιβλέπουσα ή τον επιβλέποντα, οι οποίοι τη συμπληρώνουν και αναρτούν απευθείας την υπογεγραμμένη επιστολή (PDF).</div>
   </div>
   </div>
 </section>
@@ -507,17 +469,17 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <div class="div3"></div>
   <div class="steps reveal">
   <div class="step"><div class="step-n">1</div><div class="step-t">Ετοιμάστε τον Φάκελο σας</div><div class="step-b">Συγκεντρώστε βιογραφικό σημείωμα, πτυχία, αναλυτικές βαθμολογίες, πιστοποιητικά γλωσσομάθειας και τυχόν προαιρετικά υλικά. Ενοποιήστε τα όλα (εκτός της συστατικής επιστολής) σε ένα ενιαίο PDF.</div></div>
-  <div class="step"><div class="step-n">2</div><div class="step-t">Συμπληρώστε την Ηλεκτρονική Φόρμα</div><div class="step-b"><a href="https://docs.google.com/forms/d/e/1FAIpQLScroL8Zc9EQoH1NVibEhPeqHsZOd9YlP5nNi_QbMAPx6NCIbg/viewform" target="_blank" rel="noopener" style="color:var(--rust)">Ανοίξτε τη φόρμα αίτησης</a>, μεταφορτώστε το PDF σας και καταχωρίστε τα στοιχεία του συστήνοντος.</div></div>
-  <div class="step"><div class="step-n">3</div><div class="step-t">Ο Συστήνων Υποβάλλει Απευθείας</div><div class="step-b">Διαβιβάζετε τη <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqSfiNjn4G6YVpnV_OqGzwa_Jgr0rb6yrKAo73skrNlYIICw/viewform" target="_blank" rel="noopener" style="color:var(--rust)">φόρμα συστατικής επιστολής</a> στον συστήνοντα. Εκείνος αναρτά την υπογεγραμμένη επιστολή (PDF) και την υποβάλλει απευθείας.</div></div>
-  <div class="step"><div class="step-n">4</div><div class="step-t">Προφορική Συνέντευξη</div><div class="step-b">Οι υποψήφιοι που προεπιλέγονται καλούνται σε προφορική συνέντευξη διάρκειας 20–30 λεπτών ενώπιον της Επιτροπής Επιλογής (τέλη Σεπτεμβρίου 2026).</div></div>
+  <div class="step"><div class="step-n">2</div><div class="step-t">Συμπληρώστε την Ηλεκτρονική Φόρμα</div><div class="step-b"><a href="https://docs.google.com/forms/d/e/1FAIpQLScroL8Zc9EQoH1NVibEhPeqHsZOd9YlP5nNi_QbMAPx6NCIbg/viewform" target="_blank" rel="noopener" style="color:var(--rust)">Ανοίξτε τη φόρμα αίτησης</a>, μεταφορτώστε το PDF σας και καταχωρίστε τα στοιχεία της συστήνουσας ή του συστήνοντος.</div></div>
+  <div class="step"><div class="step-n">3</div><div class="step-t">Ο Συστήνων ή η Συστήνουσα Υποβάλλει Απευθείας</div><div class="step-b">Διαβιβάζετε τη <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqSfiNjn4G6YVpnV_OqGzwa_Jgr0rb6yrKAo73skrNlYIICw/viewform" target="_blank" rel="noopener" style="color:var(--rust)">φόρμα συστατικής επιστολής</a>. Εκείνος ή εκείνη αναρτά την υπογεγραμμένη επιστολή (PDF) και την υποβάλλει απευθείας.</div></div>
+  <div class="step"><div class="step-n">4</div><div class="step-t">Προφορική Συνέντευξη</div><div class="step-b">Οι υποψήφιες και υποψήφιοι που προεπιλέγονται καλούνται σε προφορική συνέντευξη διάρκειας 20–30 λεπτών ενώπιον της Επιτροπής Επιλογής (τέλη Σεπτεμβρίου 2026).</div></div>
   </div>
   <div class="apply-cta reveal">
   <div>
-  <h3>Έτοιμοι να Υποβάλετε Αίτηση;</h3>
+  <h3>Έτοιμες και έτοιμοι να υποβάλετε αίτηση;</h3>
   <p>Οι αιτήσεις ξεκινούν στις <strong style="color:var(--rust)">2 Μαΐου 2026</strong> και λήγουν στις <strong style="color:var(--rust)">20 Σεπτεμβρίου 2026</strong>. Το πρόγραμμα ξεκινά στις <strong style="color:var(--gold)">12 Οκτωβρίου 2026</strong>.</p>
-  <p style="margin-top:6px;font-size:13px;color:rgba(255,255,255,.55)">Συστατική επιστολή (αποκλειστικά για τον συστήνοντα): <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqSfiNjn4G6YVpnV_OqGzwa_Jgr0rb6yrKAo73skrNlYIICw/viewform" target="_blank" rel="noopener" style="color:var(--rust);text-decoration:underline">ανοίξτε τη φόρμα</a></p>
+  <p style="margin-top:6px;font-size:13px;color:rgba(255,255,255,.55)">Συστατική επιστολή (αποκλειστικά για τη συστήνουσα ή τον συστήνοντα): <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqSfiNjn4G6YVpnV_OqGzwa_Jgr0rb6yrKAo73skrNlYIICw/viewform" target="_blank" rel="noopener" style="color:var(--rust);text-decoration:underline">ανοίξτε τη φόρμα</a></p>
   <p style="margin-top:10px;font-size:14px">Πληροφορίες: <a href="mailto:skarag@enl.uoa.gr" style="color:var(--rust)">skarag@enl.uoa.gr</a> · <a href="tel:+302107277771" style="color:var(--rust)">210 7277771</a></p>
-  <p style="margin-top:10px;font-size:13px;color:rgba(255,255,255,.55)"><strong style="color:rgba(255,255,255,.85)">Προσβασιμότητα:</strong> Υποψήφιοι που χρειάζονται διευκολύνσεις κατά τη συνέντευξη μπορούν να επικοινωνήσουν με τη Γραμματεία στο <a href="mailto:skarag@enl.uoa.gr" style="color:var(--rust);text-decoration:underline">skarag@enl.uoa.gr</a> τουλάχιστον επτά ημέρες νωρίτερα.</p>
+  <p style="margin-top:10px;font-size:13px;color:rgba(255,255,255,.55)"><strong style="color:rgba(255,255,255,.85)">Προσβασιμότητα:</strong> Υποψήφιες και υποψήφιοι που χρειάζονται διευκολύνσεις κατά τη συνέντευξη μπορούν να επικοινωνήσουν με τη Γραμματεία στο <a href="mailto:skarag@enl.uoa.gr" style="color:var(--rust);text-decoration:underline">skarag@enl.uoa.gr</a> τουλάχιστον επτά ημέρες νωρίτερα.</p>
   </div>
   <div><a href="https://docs.google.com/forms/d/e/1FAIpQLScroL8Zc9EQoH1NVibEhPeqHsZOd9YlP5nNi_QbMAPx6NCIbg/viewform" target="_blank" rel="noopener" class="btn-r" style="white-space:nowrap">Υποβολή Αίτησης &rarr;</a></div>
   </div>
@@ -527,7 +489,7 @@ footer{background:var(--dk);padding:56px 8% 28px}
 <section id="research">
   <div class="sec-label reveal">Ερευνητικό Περιβάλλον</div>
   <h2 class="sec-title reveal">Το πλαίσιο ένταξης του Προγράμματος.</h2>
-  <p class="sec-sub reveal">Το ΔΠΜΣ διδάσκεται από ενεργούς ερευνητές τριών τμημάτων και εντάσσεται σε ένα ευρύτερο ερευνητικό περιβάλλον γλωσσολογίας και μεταφραστικών σπουδών.</p>
+  <p class="sec-sub reveal">Το ΔΠΜΣ διδάσκεται από ενεργές ερευνήτριες και ενεργούς ερευνητές τριών τμημάτων και εντάσσεται σε ένα ευρύτερο ερευνητικό περιβάλλον γλωσσολογίας και μεταφραστικών σπουδών.</p>
   <div class="research-grid reveal">
   <div class="ri-card">
   <div class="ri-h">Τρία Συνεργαζόμενα Τμήματα</div>
@@ -535,15 +497,15 @@ footer{background:var(--dk);padding:56px 8% 28px}
   </div>
   <div class="ri-card">
   <div class="ri-h">GlossaContact Lab</div>
-  <p>Το Πρόγραμμα υποστηρίζεται από το <strong>GlossaContact Lab</strong> (Εργαστήριο Μετάφρασης, Διερμηνείας, Διαχρονικής και Συγχρονικής Μελέτης της Γλωσσικής Επαφής) του Τμήματος Αγγλικής Γλώσσας και Φιλολογίας, το οποίο συνεισφέρει σεμινάρια, πόρους σωμάτων κειμένων και ψηφιακά εργαλεία και στις τρεις γλώσσες εργασίας.</p>
+  <p>Το Πρόγραμμα υποστηρίζεται από το <strong>GlossaContact Lab</strong> (Εργαστήριο Μετάφρασης, Διερμηνείας, Διαχρονικής και Συγχρονικής Μελέτης της Γλωσσικής Επαφής) του Τμήματος Αγγλικής Γλώσσας και Φιλολογίας, το οποίο συνεισφέρει σεμινάρια, πόρους σωμάτων κειμένων και ψηφιακά εργαλεία σε όλες τις γλώσσες εργασίας.</p>
   </div>
   <div class="ri-card">
   <div class="ri-h">Ετήσιο Θερινό Σχολείο</div>
-  <p>Οι φοιτητές μπορούν να παρακολουθήσουν ετήσιο διεθνές θερινό σχολείο στις Κυκλάδες με αντικείμενο τη διαχρονική γλωσσολογία· η εγγραφή φοιτητών του ΔΠΜΣ έχει προτεραιότητα.</p>
+  <p>Οι φοιτήτριες και φοιτητές μπορούν να παρακολουθήσουν ετήσιο διεθνές θερινό σχολείο στις Κυκλάδες με αντικείμενο τη διαχρονική γλωσσολογία· η εγγραφή φοιτητριών και φοιτητών του ΔΠΜΣ έχει προτεραιότητα.</p>
   </div>
   <div class="ri-card">
   <div class="ri-h">Ευρωπαϊκά Δίκτυα</div>
-  <p>Τα μέλη ΔΕΠ συμμετέχουν ενεργά σε μείζονα ευρωπαϊκά γλωσσολογικά δίκτυα, ανοίγοντας στους φοιτητές πρόσβαση σε διεθνή συνέδρια και ερευνητικές συνεργασίες ανά την Ευρώπη.</p>
+  <p>Τα μέλη ΔΕΠ συμμετέχουν ενεργά σε μείζονα ευρωπαϊκά γλωσσολογικά δίκτυα, ανοίγοντας στις φοιτήτριες και τους φοιτητές πρόσβαση σε διεθνή συνέδρια και ερευνητικές συνεργασίες ανά την Ευρώπη.</p>
   </div>
   <div class="ri-card">
   <div class="ri-h">Χρηματοδοτούμενα Ερευνητικά Προγράμματα</div>
@@ -551,7 +513,7 @@ footer{background:var(--dk);padding:56px 8% 28px}
   </div>
   <div class="ri-card">
   <div class="ri-h">Ακαδημαϊκό Περιοδικό</div>
-  <p>Ένα επιστημονικό περιοδικό ανοικτής πρόσβασης στη γλωσσική επαφή και τη μετάφραση, εκδιδόμενο στο πλαίσιο του ευρύτερου ερευνητικού περιβάλλοντος, δίνει στους φοιτητές τη δυνατότητα να εντάσσονται στην τρέχουσα επιστημονική συζήτηση.</p>
+  <p>Ένα επιστημονικό περιοδικό ανοικτής πρόσβασης στη γλωσσική επαφή και τη μετάφραση, εκδιδόμενο στο πλαίσιο του ευρύτερου ερευνητικού περιβάλλοντος, δίνει στις φοιτήτριες και τους φοιτητές τη δυνατότητα ανάδειξης στην τρέχουσα επιστημονική συζήτηση.</p>
   </div>
   </div>
 </section>
@@ -562,34 +524,24 @@ footer{background:var(--dk);padding:56px 8% 28px}
   <h2 class="sec-title reveal">Ερωτήσεις και απαντήσεις.</h2>
   <div class="div3"></div>
   <div style="max-width:900px;margin:36px auto 0;display:grid;gap:18px">
-
-    <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Χρειάζομαι δημοσιεύσεις ή ερευνητικές εργασίες για να κάνω αίτηση;</summary>
-      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)"><strong>Όχι.</strong> Δημοσιεύσεις και ερευνητικές εργασίες <strong>δεν αποτελούν προϋπόθεση</strong> επιλεξιμότητας. Γίνονται δεκτές ως προαιρετικό υλικό στον φάκελο· η απουσία τους δεν επηρεάζει την επιλεξιμότητα ούτε την αξιολόγηση.</p></details>
-
+    <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Χρειάζομαι δημοσιεύσεις ή ερευνητικές εργασίες για να υποβάλω αίτηση;</summary>
+      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)"><strong>Όχι.</strong> Δημοσιεύσεις και ερευνητικές εργασίες <strong>δεν αποτελούν προϋπόθεση</strong> επιλεξιμότητας. Γίνονται δεκτές ως προαιρετικό υλικό στον φάκελο· η απουσία τους δεν επηρεάζει ούτε την επιλεξιμότητα ούτε την αξιολόγηση.</p></details>
     <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Μπορώ να υποβάλω αίτηση με πτυχίο από ξένο πανεπιστήμιο;</summary>
-      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Ναι. Γίνονται δεκτοί κάτοχοι ισότιμων τίτλων από αναγνωρισμένα ξένα πανεπιστήμια.</p></details>
-
+      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Ναι. Γίνονται δεκτές και δεκτοί κάτοχοι ισότιμων τίτλων από αναγνωρισμένα ξένα πανεπιστήμια.</p></details>
     <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Αναγνωρίζονται αυτόματα οι τίτλοι ξένων πανεπιστημίων;</summary>
-      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Η αναγνώριση από το ΕΚΠΑ οριστικοποιείται κατά την εγγραφή, σύμφωνα με τη διαδικασία του Υπουργείου Παιδείας. Δεχόμαστε αιτήσεις βάσει του βαθμού που κατέχετε· η τυπική αναγνώριση ολοκληρώνεται πριν από την έναρξη του προγράμματος.</p></details>
-
+      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Η αναγνώριση από το ΕΚΠΑ οριστικοποιείται κατά την εγγραφή, σύμφωνα με τη διαδικασία του Υπουργείου Παιδείας. Δεχόμαστε αιτήσεις βάσει του βαθμού πτυχίου που κατέχετε· η τυπική αναγνώριση ολοκληρώνεται πριν από την έναρξη του προγράμματος.</p></details>
     <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Οι συνεντεύξεις γίνονται δια ζώσης ή διαδικτυακά;</summary>
-      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Κατά κανόνα διεξάγονται διαδικτυακά (Webex). Υποψήφιοι που βρίσκονται στην Αθήνα μπορούν να ζητήσουν δια ζώσης συνέντευξη.</p></details>
-
+      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Κατά κανόνα διεξάγονται διαδικτυακά (Webex). Υποψήφιες και υποψήφιοι που βρίσκονται στην Αθήνα μπορούν να ζητήσουν δια ζώσης συνέντευξη.</p></details>
     <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Μπορώ να παρακολουθώ το πρόγραμμα αποκλειστικά εξ αποστάσεως;</summary>
       <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Επιλεγμένα μαθήματα παρέχονται υβριδικά ή εξ αποστάσεως· η αποκλειστικά εξ αποστάσεως φοίτηση δεν προσφέρεται αυτή τη στιγμή.</p></details>
-
     <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Υπάρχουν υποτροφίες ή οικονομική στήριξη;</summary>
-      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Πληροφορίες για τις κεντρικές υποτροφίες του ΕΚΠΑ βρίσκονται στη σχετική σελίδα του Πανεπιστημίου· τυχόν ειδικές προκηρύξεις του προγράμματος ανακοινώνονται στον παρόντα ιστότοπο.</p></details>
-
+      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Πληροφορίες για τις κεντρικές υποτροφίες του ΕΚΠΑ είναι διαθέσιμες στη σχετική σελίδα του Πανεπιστημίου· τυχόν ειδικές προκηρύξεις του προγράμματος ανακοινώνονται στον παρόντα ιστότοπο.</p></details>
     <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Μπορώ να εργάζομαι πλήρους απασχόλησης παράλληλα με το ΠΜΣ;</summary>
       <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Απαιτείται κανονική παρακολούθηση. Συνιστούμε μειωμένες επαγγελματικές υποχρεώσεις κατά τη διάρκεια των εξαμήνων.</p></details>
-
     <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Ποιος είναι ο φόρτος εργασίας;</summary>
-      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Κάθε μάθημα αντιστοιχεί σε 10 ECTS, δηλαδή περίπου 250 ώρες συνολικής εργασίας, συμπεριλαμβανομένων σεμιναρίων, μελέτης και εργασιών.</p></details>
-
+      <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Κάθε μάθημα αντιστοιχεί σε 10 ECTS, δηλαδή περίπου 250 ώρες συνολικής εργασίας, που περιλαμβάνουν σεμινάρια, μελέτη και εργασίες.</p></details>
     <details style="border-left:3px solid var(--rust,#c63);padding:14px 18px;background:var(--white)"><summary style="font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--ink,#1a1a2e);cursor:pointer">Πώς βαθμολογούνται τα μαθήματα;</summary>
       <p style="margin-top:10px;font-size:15px;line-height:1.65;color:var(--ink,#1a1a2e)">Κάθε μάθημα βαθμολογείται στην ελληνική κλίμακα 0–10, με ελάχιστη βάση επιτυχίας το 6.</p></details>
-
   </div>
 </section>
 
@@ -611,7 +563,7 @@ footer{background:var(--dk);padding:56px 8% 28px}
   </div>
 </section>
 
-<!-- HAHE ACCREDITATION BAND -->
+<!-- HAHE -->
 <section id="hahe" style="background:#0a1628;padding:50px 8%">
   <div style="max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:36px;flex-wrap:wrap">
     <img src="https://ma-ling-enl-uoa.github.io/translation-3langs-2026/documents/hahe-seal.jpg" alt="Σφραγίδα Πιστοποιημένου Προγράμματος Σπουδών HAHE / ΕΘΑΑΕ" style="width:96px;height:96px;flex-shrink:0;object-fit:contain">
